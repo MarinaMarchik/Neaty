@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Mukta:wght@200&family=Open+Sans&display=swap');
+body{
+    margin: 0;
+    background-color: #336699;
+    font-family: 'Mukta', sans-serif;
+}
+.menu{
+    float: left;
+    width: 25%;
+    background-color: #336699;
+    color: white;
+}
+div.menu img{
+    display: block;
+    margin: 60px auto 5px auto;
+}
+div.menu h2{
+    margin: 5px auto 30px auto;
+    text-align: center;
+    font-size: 40px;
+}
+div.menu ul{
+    text-align: left;
+    padding: 0;
+    margin-left: 25%;
+}
+div.menu a{
+    text-decoration: none;
+    color: white;
+}
+div.menu a:hover{
+    color: #003333;
+}
+div.menu li{
+    list-style-type: none;
+    margin: 30px auto 0 auto;
+    font-size: 23px;
+}
+.content{
+    margin-left: 25%;
+    background-color: white;
+}
+a[href*="back"]:hover{
+    color: #8B0000;
+}
+p a[href*="back"]{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+div.content h1, div.content h2{
+    color: #336699;
+}
+div.content h2{
+    font-size: 33px;
+}
+.content__img{
+    width: 100%;
+    padding-bottom: 30px;
+}
+.content__welcome, .content__about, .content__gallery1, .content__gallery2, .content__gallery3{
+    margin: 0 auto 70px auto;
+    text-align: left;
+    padding: 0 50px 0 90px;
+}
+div.content__welcome p, div.content__about_text p{
+    line-height: 35px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+h1{
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.content__about_text{
+    margin-left: 27%;
+    padding-left: 20px;
+}
+.content__about_image{
+    float: left;
+    width: 25%;
+}
+.content__about_image img{
+    width: 100%;
+}
+.content__about_button{
+    padding: 15px;
+    font-size: 18px;
+    background-color: #336699;
+    color: white;
+    cursor: pointer;
+}
+.content__about_button:hover{
+    background-color: #7892b7;
+}
+div.content__about a{
+    clear:both;
+}
+.content__gallery1 img{
+    display: inline-block;
+    width: 18%;
+    margin: 10px auto;
+    padding-right: 1%;
+}
+.content__gallery2 img{
+    display: inline-block;
+    width: 31%;
+    margin: 10px auto;
+    padding-right: 1%;
+}
+div.content__gallery3 img{
+    display: inline-block;
+    width: 23%;
+    margin: 10px auto;
+    padding-right: 1%;
+}
+.content__footer p{
+    padding: 0 0 20px 90px;
+    font-size: 17px;
+    margin-bottom: 0;
+}
